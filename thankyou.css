@@ -1,0 +1,14 @@
+body{
+    background-color: darkgrey;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: inherit;
+}
+h5{
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+}
+.lead{
+    font-family: "Sofia", sans-serif;
+}
+
