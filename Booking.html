@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="Booking1.css">
+    
+</head>
+<body>
+    <div>
+       
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1f7dc0;">
+            <div class="container-fluid">
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+        
+                    <div id="mySidenav" class="sidenav">
+                        <a href="" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="Home.html">Home</a>
+                        <a href="AboutUs.html">About</a>
+                        <a href="Contact Us.html">Contact Us</a>
+                        <a href="Booking.html">Booking</a>
+                    </div>
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidenav").style.width = "250px";
+                        }
+        
+                        function closeNav() {
+                            document.getElementById("mySidenav").style.width = "0";
+                        }
+                    </script>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="Home.html">Home</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="AboutUs.html">AboutUs</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link " href="Contact Us.html">Contact Us</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link " href="Booking.html">Booking</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <body>
+            <div class="shell shell-wide section-70 section-md-90">
+                <div class="range range-xs-middle range-xs-justify text-md-left">
+                    <div class="cell-md-7 section-md-60 section-lg-140 view-animate fadeInLeftSm delay-02 active">
+                        <div>
+                            <div class="container">
+                                <div id="The Sky Is Waiting For You" class="item">
+                                    <h2>Flight Booking</h2>
+                                    <h3>The Sky Is Waiting For You</h3>
+                                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+                                    <p id="The Sky Is Waiting For You "class="para"> With Cheapflights, you can easily book any ticket you 
+                                        need to travel  safely thanks to our detailed system of searching 
+                                        and booking airline tickets.</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="booking-form-box">
+                    <div class="radio-btn">
+                        <input type="radio" class="btn" name="check" checked="checked"><span>RoundTrip</span>
+                        <input type="radio" class="btn" name="check" ><span>One Way</span>
+                        <input type="radio" class="btn" name="check" ><span>Multi-city</span>
+                    </div>
+                    <div class="booking-form">
+                        <label>From</label>
+                        <input type="text" class="form-control" placeholder="City or Airport">
+                        <label>To</label>
+                        <input type="text" class="form-control" placeholder="City or Airport">
+                        <div class="input-grp">
+                            <label>Depature</label>
+                            <input type="date" class="form-control"select-date">
+                        </div>
+                        <div class="input-grp">
+                            <label>Return</label>
+                            <input type="date" class="form-control"value="select-date">
+                        </div>
+                        <div class="input-grp">
+                            <label>Childrens</label>
+                            <input type="number" class="form-control"value="0">
+                        </div>
+                        <div class="input-grp">
+                            <label>Adults</label>
+                            <input type="number" class="form-control"value="1">
+                        </div>
+                        <div class="input-grp">
+                            <label>Class</label>
+                            <select class="custom-select">
+                                <option value="1">Economy Class</option>
+                                <option value="2">Business Class</option>
+                            </select>
+                        </div>
+                        <div class="input-grp">
+                            <button type="button" class="btn btn-primary flight">Show Flight</button>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</body>
+
+    

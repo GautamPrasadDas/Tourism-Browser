@@ -1,0 +1,167 @@
+body{
+    background-image: url("flight.png"), url("flight.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;   
+}
+@media only screen and (min-width:50%) {
+    body {
+      background-image: url('flight.png'),url("flight.png");
+    }
+  }
+.booking-form-box
+{
+    max-width:350px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+}
+.radio-btn
+{
+    margin: 0 20px;
+}
+.radio-btn .radio-btn
+{
+    margin:20px 10px 0;
+    box-shadow: nonne;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height:15px;
+    width:15px;
+    top:-2px;
+    left:-1px;
+    background-color: #fff;
+    position:relative;
+    display: inline-bock;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #fff;
+    transition:05s;
+}
+.radio-btn span
+{
+    color:aqua;
+    margin-right: 5px;
+    font-size: 12px;
+}
+h2{
+    color:white;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size:45px;
+    text-align: center;
+}
+h3{
+    color:rgb(238, 20, 184);
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size:45px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sofia;
+    font-weight:400;
+    font-style: normal;
+    color:rgb(71, 238, 38);
+    font-size: 25px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(23, 241, 107);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.booking-form{
+    padding: 0 20px 20px;
+    background-color: coral;
+}
+.booking-form-box{
+    background-color: coral;
+}
+.booking-form{
+    margin-bottom: 5px;
+    margin-top:10px;
+    font-size: 15px;
+    color: palegreen;
+}
+input::placeholder{
+    color: rgba(246, 247, 240, 0.829) !important;
+}
+.input-grp{
+    width: 151px;
+    display:inline-block
+}
+.form-control{
+    font-size: 15px !important;
+    border-radius:0 !important;
+    color: #fff !important;
+    background: transparent !important;
+    box-shadow:none !important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::webkit--outer-spin-button
+{
+    -webkit-appearance: none;
+    margin:0;
+}
+.select-date.select-date::-webkit-calent-picker-indicator
+{
+    background:transparent!important;
+}
+.custom-select{
+    color: rgba(0, 0, 0, 0.781) !important;
+    font-size: 15px !important;
+    border:1px solid #0d0e0cd5 !important;
+    box-shadow:none !important;
+    border-radius:0 !important;
+    background: transparent !important;
+}
+.custom-select option{
+    color: #333;
+}
+.flight{
+    width:100%;
+    padding:9px 0 !important;
+    font-size: 12px !important;
+    border: 1px solid rgba(0, 0, 0, 0.781) !important;
+    box-shadow:none !important;
+    border-radius:0 !important;
+    background: transparent !important;
+}
+.flight:hover{
+    background: black!important;
+    color: rgb(23, 238, 23) !important;
+    transition:1.5s;
+}
+
